@@ -35,6 +35,7 @@ def main(*args):
     print("="*150)
     AlHazen.Run(od_dir, ds_dir, thresh, thresh_ratio, detect_val).run()
 
+# uygulama çalıştırma dosyası
 
 if __name__ == '__main__':
     args = sys.argv[1:]
